@@ -89,7 +89,7 @@ footer{
     color: #333333;
     font-family: 'Alice', serif;
     font-size: 16px;
-    margin-top: 65px;
+    margin: 65px auto;
     vertical-align: middle;
     /* display: flex; */
 }
