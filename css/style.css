@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -29,10 +30,11 @@ h1{
     margin-bottom: 40px;
 }
 h2{
-    margin-top: 2px;
+    margin: 2px auto 8px;
 }
 img{
     border-radius: 28px;
+    margin-bottom: 20px;
 }
 #subtitle{
     text-align: center;
@@ -47,17 +49,47 @@ h3{
     font-size: 28px;
 }
 #content-list{
-    margin-top: 40px;
+    margin: 40px auto;
     border-top: solid #D9D9D9 1px;
+    border-bottom: solid #d9d9d9 1px;
+    
 }
 #title-list{
     margin: 64px auto;
 }
-li{
-    margin-left: 40px;
+p{
+    font-size: 16px;
+    color: #333333;
 }
-ol li{
-    font-size: 28px;
-    font-weight: bold;
-    color: #1B1B1B;
+ol{
+    margin-top: 64px;
+}
+.card{
+    list-style-type: none;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: disc;
+    color: #0C51A7;
+    margin-bottom: 48px;
+}
+.list-park{
+    color: #591B98;
+    margin-bottom: 40px;
+}
+.list-park li + li{
+    color:#E5245E;
+}
+.list-park li + li + li{
+    color:#E95E10;
+}
+footer{
+    text-align: center;
+    color: #333333;
+    font-family: 'Alice', serif;
+    font-size: 16px;
+    margin-top: 65px;
+    vertical-align: middle;
+    /* display: flex; */
 }
