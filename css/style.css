@@ -74,14 +74,13 @@ ul{
     color: #0C51A7;
     margin-bottom: 48px;
 }
-.list-park{
+.list-park:nth-child(1){
     color: #591B98;
-    margin-bottom: 40px;
 }
-.list-park li + li{
+.list-park:nth-child(2){
     color:#E5245E;
 }
-.list-park li + li + li{
+.list-park:nth-child(3){
     color:#E95E10;
 }
 footer{
